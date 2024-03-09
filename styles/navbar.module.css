@@ -1,0 +1,19 @@
+.main {
+  width: 90%;
+  height: 8rem;
+  padding: 2rem;
+  position: fixed;
+  z-index: 100;
+  top: 2rem;
+  left: 50%;
+  translate: -50%;
+
+  border: 2px solid var(--themeColor);
+  border-radius: 12px;
+
+  color: var(--themeColor);
+  background-color: rgb(2, 2, 18);
+
+  display: flex;
+  align-items: center;
+}

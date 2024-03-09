@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Anta&display=swap");
+
+body {
+  font-family: "Anta", sans-serif;
+  background-color: rgb(2, 2, 18);
+  --themeColor: aqua;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(23, 23, 23);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgb(2, 2, 18);
+}
